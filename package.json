@@ -1,0 +1,21 @@
+{
+  "author": "David Hezky",
+  "description": "module analysis state",
+  "license": "MIT",
+  "main": "lib/js/index.js",
+  "name": "@dh-module/analysis-state",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "dh-run build",
+    "clean": "dh-run clean",
+    "devel": "dh-run devel",
+    "eslint": "dh-run eslint",
+    "prepublishOnly": "dh-run prepublishOnly",
+    "test": "dh-run test"
+  },
+  "devDependencies": {
+    "@dh-dependency/base": "^0.0.56",
+    "@dh-scripts/run": "^0.2.5",
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
